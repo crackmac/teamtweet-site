@@ -46,8 +46,8 @@
 	    <h1>TeamTweet.net</h1>
 	</header>
 	<div class="grid_4">
-	<p id="special">Special page for our friends <br />
-		at <b><a href="http://teamtweet.net/secrets_from_a_stylist.php" target="_blank">Secrets From A Stylist</a></b>
+	<p id="special">2011 MLB World Series <br />
+		<a href="http://teamtweet.net/cardinals" target="_blank">Cardinals</a> vs <a href="http://teamtweet.net/rangers" target="_blank">Rangers</a>
 	</p>
 	</div>
     <nav class="grid_12">
@@ -73,7 +73,7 @@
 				  search: '#mlb',
 				  interval: 6000,
 				  title: '',
-				  subject: 'Raw Baseball',
+				  subject: 'Raw Baseball -MLB',
 				  width: 220,
 				  height: 600,
 				  theme: {
@@ -100,17 +100,16 @@
 				}).render().start();
 				</script>
 			</div>
-		
 			<div class="grid_3 tw-window02">
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
 			new TWTR.Widget({
 			  version: 2,
 			  type: 'search',
-			  search: '#nba',
+			  search: '#nfl',
 			  interval: 6000,
 			  title: '',
-			  subject: 'Raw Basketball',
+			  subject: 'Raw Football -NFL',
 			  width: 220,
 			  height: 600,
 			  theme: {
@@ -137,17 +136,17 @@
 			}).render().start();
 			</script>
 			</div>
-			
+					
 			<div class="grid_3 tw-window03">
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
 			new TWTR.Widget({
 			  version: 2,
 			  type: 'search',
-			  search: '#nhl',
+			  search: '#nba',
 			  interval: 6000,
 			  title: '',
-			  subject: 'Raw Hocky',
+			  subject: 'Raw Basketball -NBA',
 			  width: 220,
 			  height: 600,
 			  theme: {
