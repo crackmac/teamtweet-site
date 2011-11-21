@@ -1,0 +1,13 @@
+#tweet-box-teamtweet {
+  background: #fff;
+  border: 5px solid #ddd;
+  width: 220px;
+  padding: 10px;
+  margin: 2px 0 0 -5px;
+  z-index: 500;
+  -moz-border-radius: 5px;
+  -moz-box-shadow:  5px 5px 3px #888;
+  -webkit-box-shadow:  5px 5px 3px #888;
+  -webkit-border-radius: 5px;
+}
+
