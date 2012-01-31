@@ -32,6 +32,9 @@
   <!-- CSS: teamtweet style -->
   <link rel="stylesheet" href="css/teamtweet.css">
 
+  <!-- CSS: @anywhere style -->
+  <link rel="stylesheet" href="css/anywhere.css">
+
   <!-- Uncomment if you are specifically targeting less enabled mobile browsers
   <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
 
@@ -46,6 +49,9 @@
 	    <h1>TeamTweet.net</h1>
 	</header>
 	<div class="grid_4">
+	<!-- <p id="special">2011 MLB World Series <br />
+		<a href="http://teamtweet.net/cardinals" target="_blank">Cardinals</a> vs <a href="http://teamtweet.net/rangers" target="_blank">Rangers</a>
+	</p> -->
 	</div>
     <nav class="grid_12">
       <?php include "navigation.html" ?>
@@ -172,6 +178,8 @@
 			</div>
 
 		<aside class="grid_3"> <!-- Sidebar -->
+		   <div id="tweet-box-teamtweet"></div>
+
 			<h3>We're just getting started</h3>
 			<p>It takes time to find the right bunch of tweeters for our lists so please excuse any lack of experts. There is always the Raw Feed and Trash Talk to keep you entertained. Read more <a href="#">About Us</a> and how things work.
 			 
@@ -191,12 +199,25 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
   <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
 
-
   <!-- scripts concatenated and minified via ant build script-->
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
   <!-- end scripts-->
 
+  <!-- @anywhere integration-->
+  <!-- <script src="js/mylibs/anywhere.js"></script> -->
+<script src="http://platform.twitter.com/anywhere.js?id=jXQnVjqOGh4kSGTILOew&v=1" type="text/javascript"></script>
+
+<script type="text/javascript">
+  twttr.anywhere(function (T) {
+    T("#tweet-box-teamtweet").tweetBox({
+      height: 100,
+      width: 220,
+      label: "Tweet it...",
+      defaultContent: "#teamtweet.net"
+    });
+  });
+</script>
 
   <!--[if lt IE 7 ]>
     <script src="js/libs/dd_belatedpng.js"></script>
@@ -214,3 +235,4 @@
 
 </body>
 </html>
+

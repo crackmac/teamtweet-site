@@ -53,6 +53,17 @@ footer {
 	-webkit-transition-timing-function: ease, ease;
 }
 
+#tbox {
+	font-size: 18px;
+	background-color: rgba(255, 215, 0, 0.3);
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transition-property:color, background;
+	-webkit-transition-duration: .5s, .5s;
+	-webkit-transition-timing-function: ease, ease;
+}
+
 /*------------------------------
 =NAVIGATION
 ------------------------------*/
