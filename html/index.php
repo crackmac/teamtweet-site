@@ -46,9 +46,6 @@
 	    <h1>TeamTweet.net</h1>
 	</header>
 	<div class="grid_4">
-	<p id="special">2011 MLB World Series <br />
-		<a href="http://teamtweet.net/cardinals" target="_blank">Cardinals</a> vs <a href="http://teamtweet.net/rangers" target="_blank">Rangers</a>
-	</p>
 	</div>
     <nav class="grid_12">
       <?php include "navigation.html" ?>
