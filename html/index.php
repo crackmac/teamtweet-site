@@ -57,10 +57,14 @@
       <?php include "navigation.html" ?>
     </nav>
 	<section id="intro" class="grid_12">
+	    <header>
+	        <h2><a href="http://www.teamtweet.net/superbowl">Super Bowl XLVI</a> special section!<h2> 
+<!-- 
 		<header>
 			<h2>Specialized Twitter feeds for your all your pro sports teams. </h2>
 		</header>
 		<p>Cut through all the noise and see what the superfans, players and sportswriters are saying in real time while the action is happening.  </p>
+ -->
 	</section>
 	<header class="grid_12">
 		<h3>Here are a few of our favorites lists</h3>
