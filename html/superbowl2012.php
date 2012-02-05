@@ -1,3 +1,14 @@
+<?php 
+$team_name01 = "New York Giants"; 
+$team_common_name01 = "giants";
+$team_name01 = "New England Patriots"; 
+$team_common_name01 = "patriots";
+
+$hate="hate $team_common_name01 OR \"$team_name01\" OR $team_common_name02 OR \"$team_name02\"";
+
+$score="$team_common_name from:realSCORES";
+?>
+
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
@@ -44,14 +55,14 @@
 	</header>
 	<div class="grid_5">
 	<p id="special">Super Bowl XLVI<br />
-		<b>New England Patriots VS New York Giants</b>
+		<b>New England Patriots <br />VS New York Giants</b>
 	</p>
 	</div>
     <nav class="grid_12">
       <?php include "navigation.html" ?>
     </nav>    
 	<header class="grid_12">
-		<h3>Super Bowl XLVI</h3>
+		<h3>New York Giants</h3>
 	</header>
 	<div class="grid_4 tw-window01">
 		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -85,46 +96,46 @@
 		    avatars: true,
 		    behavior: 'default'
 		  }
-		}).render().setList('tt_mlb_al', "<?php echo $list_name ?>").start();
+		}).render().setList('tt_nfl_nfc', "giants").start();
 		</script>
 	</div> 
 
 	<div class="grid_4 tw-window02">
-	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-	<script>
-	new TWTR.Widget({
-	  version: 2,
-	  type: 'search',
-	  search: '<?php echo $raw ?>',
-	  interval: 6000,
-	  title: '',
-	  subject: 'Raw Feed',
-	  width: 300,
-	  height: 550,
-	  theme: {
-	    shell: {
-	      background: '#8ec1da',
-	      color: '#ffffff'
-	    },
-	    tweets: {
-	      background: '#ffffff',
-	      color: '#444444',
-	      links: '#1985b5'
-	    }
-	  },
-	  features: {
-	    scrollbar: true,
-	    loop: true,
-	    live: true,
-	    hashtags: true,
-	    timestamp: true,
-	    avatars: true,
-	    toptweets: true,
-	    behavior: 'default'
-	  }
-	}).render().start();
-	</script>
-	</div>
+		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<script>
+		new TWTR.Widget({
+		  version: 2,
+		  type: 'list',
+		  rpp: 30,
+		  interval: 6000,
+		  title: '',
+		  subject: 'Expert Stream',
+		  width: 300,
+		  height: 550,
+		  theme: {
+		    shell: {
+		      background: '#4099ff',
+		      color: '#ffffff'
+		    },
+		    tweets: {
+		      background: '#ffffff',
+		      color: '#444444',
+		      links: '#b740c2'
+		    }
+		  },
+		  features: {
+		    scrollbar: true,
+		    loop: false,
+		    live: true,
+		    hashtags: true,
+		    timestamp: true,
+		    avatars: true,
+		    behavior: 'default'
+		  }
+		}).render().setList('tt_nfl_afc', "patriots").start();
+		</script>
+	</div> 
+	
 	<div class="grid_4 tw-window03">
 	<script>
 	new TWTR.Widget({
