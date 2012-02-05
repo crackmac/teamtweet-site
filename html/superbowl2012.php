@@ -39,10 +39,10 @@
 </head>
 <body>
 	<div class="container_12">
-	<header class="grid_8">
+	<header class="grid_7">
 	    <h1>TeamTweet.net</h1>
 	</header>
-	<div class="grid_4">
+	<div class="grid_5">
 	<p id="special">Super Bowl XLVI<br />
 		<b>New England Patriots VS New York Giants</b>
 	</p>
