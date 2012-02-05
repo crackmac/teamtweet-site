@@ -58,52 +58,14 @@
     </nav>
 	<section id="intro" class="grid_12">
 		<header>
-			<h2>Twitter chatter about your team from the super fans, players, bloggers and beat writers.</h2>
+			<h2>Specialized Twitter feeds for your all your pro sports teams. </h2>
 		</header>
-		<p>You don't need a twitter account. You don't need to spend hours finding the best, insightful, opinionated and funny 
-			tweeters on the web. We've done the work now you can sit back and enjoy. You'll never watch sports the same way 
-			again.</p>
+		<p>Cut through all the noise and see what the superfans, players and sportswriters are saying in real time while the action is happening.  </p>
 	</section>
 	<header class="grid_12">
 		<h3>Here are a few of our favorites lists</h3>
 	</header>
 			<div class="grid_3 tw-window01">
-				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-				<script>
-				new TWTR.Widget({
-				  version: 2,
-				  type: 'search',
-				  search: '#mlb',
-				  interval: 6000,
-				  title: '',
-				  subject: 'Raw Baseball -MLB',
-				  width: 220,
-				  height: 600,
-				  theme: {
-				    shell: {
-				      background: '#00CCFF',
-				      color: '#ffffff'
-				    },
-				    tweets: {
-				      background: '#ffffff',
-				      color: '#444444',
-				      links: '#1985b5'
-				    }
-				  },
-				  features: {
-				    scrollbar: true,
-				    loop: true,
-				    live: true,
-				    hashtags: true,
-				    timestamp: true,
-				    avatars: true,
-				    toptweets: true,
-				    behavior: 'default'
-				  }
-				}).render().start();
-				</script>
-			</div>
-			<div class="grid_3 tw-window02">
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
 			new TWTR.Widget({
@@ -140,7 +102,7 @@
 			</script>
 			</div>
 					
-			<div class="grid_3 tw-window03">
+			<div class="grid_3 tw-window02">
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
 			new TWTR.Widget({
@@ -176,12 +138,48 @@
 			}).render().start();
 			</script>
 			</div>
-
+			
+			<div class="grid_3 tw-window03">
+				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<script>
+				new TWTR.Widget({
+				  version: 2,
+				  type: 'search',
+				  search: '#mlb',
+				  interval: 6000,
+				  title: '',
+				  subject: 'Raw Baseball -MLB',
+				  width: 220,
+				  height: 600,
+				  theme: {
+				    shell: {
+				      background: '#00CCFF',
+				      color: '#ffffff'
+				    },
+				    tweets: {
+				      background: '#ffffff',
+				      color: '#444444',
+				      links: '#1985b5'
+				    }
+				  },
+				  features: {
+				    scrollbar: true,
+				    loop: true,
+				    live: true,
+				    hashtags: true,
+				    timestamp: true,
+				    avatars: true,
+				    toptweets: true,
+				    behavior: 'default'
+				  }
+				}).render().start();
+				</script>
+			</div>
 		<aside class="grid_3"> <!-- Sidebar -->
 		   <div id="tweet-box-teamtweet"></div>
 
-			<h3>We're just getting started</h3>
-			<p>It takes time to find the right bunch of tweeters for our lists so please excuse any lack of experts. There is always the Raw Feed and Trash Talk to keep you entertained. Read more <a href="#">About Us</a> and how things work.
+			<h3>Never watch sports the same way again</h3>
+			<p>Want to connect with some real superfans? Ever wonder what the TV and newspaper guys are talking about? Away from home and want to experience every play in that game you are missing? Read more <a href="#">About Us</a> and how things work.
 			 
 			<h3>Know any experts?</h3>
 			<p>At TeamTweet.net we don't want you to miss a great tweet. If you know someone who's putting it out there and not getting seen then let us know <a href="http://twitter.com/#!/Team_Tweet" target="_blank">@team_tweet</a> and we'll add them to one of our lists. 
