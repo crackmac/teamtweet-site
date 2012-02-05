@@ -103,7 +103,7 @@ $score="$team_common_name from:realSCORES";
 		    avatars: true,
 		    behavior: 'default'
 		  }
-		}).render().setList('tt_nfl_nfc', "giants").start();
+		}).render().setList('tt_nfl_nfc', "nfl-giants").start();
 		</script>
 	</div> 
 
@@ -139,7 +139,7 @@ $score="$team_common_name from:realSCORES";
 		    avatars: true,
 		    behavior: 'default'
 		  }
-		}).render().setList('tt_nfl_afc', "patriots").start();
+		}).render().setList('tt_nfl_afc', "nfl-patriots").start();
 		</script>
 	</div> 
 	
