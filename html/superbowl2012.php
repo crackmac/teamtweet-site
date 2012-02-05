@@ -5,6 +5,7 @@ $team_name01 = "New England Patriots";
 $team_common_name01 = "patriots";
 
 $hate="hate $team_common_name01 OR \"$team_name01\" OR $team_common_name02 OR \"$team_name02\"";
+$search="\#superbowl OR \"super bowl\"";
 
 $score="$team_common_name from:realSCORES";
 ?>
@@ -50,12 +51,12 @@ $score="$team_common_name from:realSCORES";
 </head>
 <body>
 	<div class="container_12">
-	<header class="grid_7">
+	<header class="grid_6">
 	    <h1>TeamTweet.net</h1>
 	</header>
-	<div class="grid_5">
+	<div class="grid_6">
 	<p id="special">Super Bowl XLVI<br />
-		<b>New England Patriots <br />VS New York Giants</b>
+		<b>New England Patriots VS New York Giants</b>
 	</p>
 	</div>
     <nav class="grid_12">
@@ -147,12 +148,11 @@ $score="$team_common_name from:realSCORES";
 	<script>
 	new TWTR.Widget({
 	  version: 2,
-	  type: 'search',
+	  type: 'profile',
 	  rpp: 2,
-	  search: '<?php echo $score ?>',
-	  interval: 6000,
+	  interval: 30000,
 	  title: '',
-	  subject: 'Score by @realSCORES',
+	  subject: 'Score by @CBSSports',
 	  width: 300,
 	  height: 50,
 	  theme: {
@@ -176,7 +176,7 @@ $score="$team_common_name from:realSCORES";
 	    toptweets: false,
 	    behavior: 'default'
 	  }
-	}).render().start();
+	}).render().setUser('cbssports').start();
 	</script>
 	<br />	
 	</div>
@@ -186,10 +186,10 @@ $score="$team_common_name from:realSCORES";
 	new TWTR.Widget({
 	  version: 2,
 	  type: 'search',
-	  search: '<?php echo $hate ?>',
-	  interval: 6000,
+	  search: '<?php echo $search ?>',
+          interval: 6000,
 	  title: '',
-	  subject: 'Trash Talk',
+	  subject: 'Raw Feed',
 	  width: 300,
 	  height: 400,
 	  theme: {
