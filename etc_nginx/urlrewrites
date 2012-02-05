@@ -1,0 +1,33 @@
+# MLB AL
+rewrite ^/yankees$ /mlb_al.php?var1=New%20York%20Yankees&var2=yankees&var3=yankees last;
+rewrite ^/redsox$ /mlb_al.php?var1=Boston%20Red%20Sox&var2=redsox&var3=red%20sox last;
+rewrite ^/rays$ /mlb_al.php?var1=Tampa%20Bay%20Rays&var2=rays&var3=rays last;
+rewrite ^/bluejays$ /mlb_al.php?var1=Toronto%20Blue%20Jays&var2=bluejays&var3=blue%20jays last;
+rewrite ^/orioles$ /mlb_al.php?var1=Baltimore%20Orioles&var2=orioles&var3=orioles last;
+rewrite ^/twins$ /mlb_al.php?var1=Minnesota%20Twins&var2=twins&var3=twins last;
+rewrite ^/tigers$ /mlb_al.php?var1=Detroit%20Tigers&var2=tigers&var3=tigers last;
+rewrite ^/whitesox$ /mlb_al.php?var1=Chicago%20White%20Sox&var2=whitesox&var3=white%20sox last;
+rewrite ^/royals$ /mlb_al.php?var1=Kansas%20City%20Royals&var2=royals&var3=royals last;
+rewrite ^/indians$ /mlb_al.php?var1=Cleveland%20Indians&var2=indians&var3=indians last;
+rewrite ^/rangers$ /mlb_al.php?var1=Texas%20Rangers&var2=rangers&var3=rangers last;
+rewrite ^/angels$ /mlb_al.php?var1=Los%20Angeles%20Angels&var2=angels&var3=angels last;
+rewrite ^/athletics$ /mlb_al.php?var1=Oakland%20Athletics&var2=athletics&var3=athletics last;
+rewrite ^/mariners$ /mlb_al.php?var1=Seattle%20Mariners&var2=mariners&var3=mariners last;
+# MLB NL
+rewrite ^/braves$ /mlb_nl.php?var1=Atlanta%20Braves&var2=braves&var3=braves last;
+rewrite ^/mets$ /mlb_nl.php?var1=New%20York%20Mets&var2=mets&var3=mets last;
+rewrite ^/phillies$ /mlb_nl.php?var1=Philadelphia%20Phillies&var2=phillies&var3=phillies last;
+rewrite ^/marlins$ /mlb_nl.php?var1=Florida%20Marlins&var2=marlins&var3=marlins last;
+rewrite ^/nationals$ /mlb_nl.php?var1=Washington%20Nationals&var2=nationals&var3=nationals last;
+rewrite ^/cardinals$ /mlb_nl.php?var1=St%20Louis%20Cardinals&var2=cardinals&var3=cardinals last;
+rewrite ^/reds$ /mlb_nl.php?var1=Cincinnati%20Reds&var2=reds&var3=reds last;
+rewrite ^/brewers$ /mlb_nl.php?var1=Milwaukee%20Brewers&var2=brewers&var3=brewers last;
+rewrite ^/cubs$ /mlb_nl.php?var1=Chicago%20Cubs&var2=cubs&var3=cubs last;
+rewrite ^/astros$ /mlb_nl.php?var1=Houston%20Astros&var2=astros&var3=astros last;
+rewrite ^/pirates$ /mlb_nl.php?var1=Pittsburgh%20Pirates&var2=pirates&var3=pirates last;
+rewrite ^/padres$ /mlb_nl.php?var1=San%20Diego%20Padres&var2=padres&var3=padres last;
+rewrite ^/sfgiants$ /mlb_al.php?var1=San%20Francisco%20Giants&var2=giants&var3=giants last;
+rewrite ^/dodgers$ /mlb_nl.php?var1=Los%20Angeles%20Dodgers&var2=dodgers&var3=dodgers last;
+rewrite ^/rockies$ /mlb_nl.php?var1=Colorado%20Rockies&var2=rockies&var3=rockies last;
+rewrite ^/diamondbacks$ /mlb_nl.php?var1=Arizona%20Diamondbacks&var2=dbacks&var3=diamondbacks last;
+
