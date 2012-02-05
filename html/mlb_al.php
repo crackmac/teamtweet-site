@@ -68,9 +68,9 @@ $score="$team_realscore_name from:realSCORES";
 	    <h1>TeamTweet.net</h1>
 	</header>
 	<div class="grid_4">
-	<p id="special">Special page for our friends <br />
+<!--	<p id="special">Special page for our friends <br />
 		at <b><a href="http://teamtweet.net/secrets_from_a_stylist.php" target="_blank">Secrets From A Stylist</a></b>
-	</p>
+	</p> -->
 	</div>
     <nav class="grid_12">
       <?php include "navigation.html" ?>
