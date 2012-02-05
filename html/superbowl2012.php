@@ -61,8 +61,11 @@ $score="$team_common_name from:realSCORES";
     <nav class="grid_12">
       <?php include "navigation.html" ?>
     </nav>    
-	<header class="grid_12">
+	<header class="grid_4">
 		<h3>New York Giants</h3>
+	</header>
+		<header class="grid_4">
+		<h3>New England Patriots</h3>
 	</header>
 	<div class="grid_4 tw-window01">
 		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
