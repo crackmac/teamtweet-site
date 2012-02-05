@@ -67,6 +67,10 @@ $score="$team_common_name from:realSCORES";
 		<header class="grid_4">
 		<h3>New England Patriots</h3>
 	</header>
+		</header>
+		<header class="grid_4">
+		<h3></h3>
+	</header>
 	<div class="grid_4 tw-window01">
 		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 		<script>
