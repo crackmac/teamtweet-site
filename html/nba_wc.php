@@ -16,7 +16,7 @@ $list_name="nba-" . $team_common_name;
 //$raw="$team_common_name OR \"$team_name_array[1] OR $team_name_array[2]\"";
 $raw="$team_common_name OR \"$team_name\"";
 
-$score="$team_common_name from:realSCORES";
+$score="$team_common_name AND \#Leaguepassalert from:nba";
 ?>
 
 <!doctype html>
@@ -160,7 +160,7 @@ $score="$team_common_name from:realSCORES";
 	  search: '<?php echo $score ?>',
 	  interval: 6000,
 	  title: '',
-	  subject: 'Score by @realSCORES',
+	  subject: 'Score by @NBA',
 	  width: 300,
 	  height: 50,
 	  theme: {
