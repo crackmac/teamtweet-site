@@ -16,7 +16,7 @@ $list_name="nba-" . $team_common_name;
 //$raw="$team_common_name OR \"$team_name_array[1] OR $team_name_array[2]\"";
 $raw="$team_common_name OR \"$team_name\"";
 
-$score="$team_common_name AND \#Leaguepassalert from:nba";
+$score="$team_common_name from:nba";
 ?>
 
 <!doctype html>
