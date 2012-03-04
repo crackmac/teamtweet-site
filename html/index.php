@@ -49,64 +49,14 @@
 	    <h1>TeamTweet.net</h1>
 	</header>
 	<div class="grid_4">
-	<!-- <p id="special">2011 MLB World Series <br />
-		<a href="http://teamtweet.net/cardinals" target="_blank">Cardinals</a> vs <a href="http://teamtweet.net/rangers" target="_blank">Rangers</a>
-	</p> -->
 	</div>
     <nav class="grid_12">
       <?php include "navigation.html" ?>
     </nav>
-	<section id="intro" class="grid_12">
-	    <header>
-	        <h2><a href="http://www.teamtweet.net/superbowl">Super Bowl XLVI</a> special section!<h2> 
-<!-- 
-		<header>
-			<h2>Specialized Twitter feeds for your all your pro sports teams. </h2>
-		</header>
-		<p>Cut through all the noise and see what the superfans, players and sportswriters are saying in real time while the action is happening.  </p>
- -->
-	</section>
 	<header class="grid_12">
 		<h3>Here are a few of our favorites lists</h3>
 	</header>
 			<div class="grid_3 tw-window01">
-			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-			<script>
-			new TWTR.Widget({
-			  version: 2,
-			  type: 'search',
-			  search: '#nfl',
-			  interval: 6000,
-			  title: '',
-			  subject: 'Raw Football -NFL',
-			  width: 220,
-			  height: 600,
-			  theme: {
-			    shell: {
-			      background: '#00CCFF',
-			      color: '#ffffff'
-			    },
-			    tweets: {
-			      background: '#ffffff',
-			      color: '#444444',
-			      links: '#1985b5'
-			    }
-			  },
-			  features: {
-			    scrollbar: true,
-			    loop: true,
-			    live: true,
-			    hashtags: true,
-			    timestamp: true,
-			    avatars: true,
-			    toptweets: true,
-			    behavior: 'default'
-			  }
-			}).render().start();
-			</script>
-			</div>
-					
-			<div class="grid_3 tw-window02">
 			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
 			new TWTR.Widget({
@@ -142,8 +92,8 @@
 			}).render().start();
 			</script>
 			</div>
-			
-			<div class="grid_3 tw-window03">
+	
+			<div class="grid_3 tw-window02">
 				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 				<script>
 				new TWTR.Widget({
@@ -179,6 +129,45 @@
 				}).render().start();
 				</script>
 			</div>
+
+				<div class="grid_3 tw-window03">
+			<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+			<script>
+			new TWTR.Widget({
+			  version: 2,
+			  type: 'search',
+			  search: '#nfl',
+			  interval: 6000,
+			  title: '',
+			  subject: 'Raw Football -NFL',
+			  width: 220,
+			  height: 600,
+			  theme: {
+			    shell: {
+			      background: '#00CCFF',
+			      color: '#ffffff'
+			    },
+			    tweets: {
+			      background: '#ffffff',
+			      color: '#444444',
+			      links: '#1985b5'
+			    }
+			  },
+			  features: {
+			    scrollbar: true,
+			    loop: true,
+			    live: true,
+			    hashtags: true,
+			    timestamp: true,
+			    avatars: true,
+			    toptweets: true,
+			    behavior: 'default'
+			  }
+			}).render().start();
+			</script>
+			</div>
+			
+
 		<aside class="grid_3"> <!-- Sidebar -->
 		   <div id="tweet-box-teamtweet"></div>
 
