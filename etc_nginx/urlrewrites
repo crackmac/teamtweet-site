@@ -32,4 +32,4 @@ rewrite ^/rockies$ /mlb_nl.php?var1=Colorado%20Rockies&var2=rockies&var3=rockies
 rewrite ^/diamondbacks$ /mlb_nl.php?var1=Arizona%20Diamondbacks&var2=dbacks&var3=diamondbacks last;
 
 # NCAA 2012 Tornament
-rewrites ^/kentucky&westernkentucky /ncaa2012.php?var1=kentucky&var2=wildcats&var3=western%20kentucky&var4=hilltoppers last;
+rewrite ^/kentucky&westernkentucky$ /ncaa2012.php?var1=Kentucky&var2=Wildcats&var3=Western%20Kentucky&var4=Hilltoppers last;

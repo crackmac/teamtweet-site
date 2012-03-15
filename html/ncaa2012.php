@@ -25,9 +25,9 @@ $score="$team_name01 from:marchmadness";
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>TeamTweet - custom Twitter feeds for the 2012 Superbowl.</title>
-  <meta name="description" content="Custom Twitter feeds for the 2012 Superbowl and all your favorite MLB, NBA, NFL or NHL Teams.">
+  <meta name="description" content="Custom Twitter feeds for the 2012 NCAA College Basketball Tournament and all your favorite MLB, NBA, NFL or NHL Teams.">
   <meta name="author" content="Kevin Duane">
-  <meta name="keywords" content="superbowl, twitter, sports, baseball, mlb, basketball, nba, football, nfl, hockey, nhl">
+  <meta name="keywords" content="ncaa, marchmadness, twitter, sports, baseball, mlb, basketball, nba, football, nfl, hockey, nhl">
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,17 +57,17 @@ $score="$team_name01 from:marchmadness";
 	</header>
 	<div class="grid_6">
 	<p id="special">2012 NCAA Tournament<br />
-		<b><?$team_name01 $team_common_name01?> VS <?$team_name02 $team_common_name02?></b>
+		<b><?php echo "$team_name01 vs $team_name02"; ?></b>
 	</p>
 	</div>
     <nav class="grid_12">
       <?php include "navigation.html" ?>
     </nav>    
 	<header class="grid_4">
-		<h3><?$team_name01 $team_common_name01?></h3>
+		<h3><?php echo "$team_name01 $team_common_name01"; ?></h3>
 	</header>
 		<header class="grid_4">
-		<h3><?$team_name02 $team_common_name02?></h3>
+		<h3><?php echo "$team_name02 $team_common_name02"; ?></h3>
 	</header>
 		</header>
 		<header class="grid_4">
@@ -82,7 +82,7 @@ $score="$team_name01 from:marchmadness";
 		  search: '<?php echo $search1 ?>',
 		  interval: 6000,
 		  title: '',
-		  subject: '<?$team_name01 $team_common_name01?> Raw Feed',
+		  subject: '<?php echo "$team_name01 $team_common_name01"; ?>',
 		  width: 300,
 		  height: 550,
 		  theme: {
@@ -119,7 +119,7 @@ $score="$team_name01 from:marchmadness";
 		  search: '<?php echo $search2 ?>',
 		  interval: 6000,
 		  title: '',
-		  subject: '<?$team_name02 $team_common_name02?> Raw Feed',
+		  subject: '<?php echo "$team_name02 $team_common_name02"; ?>',
 		  width: 300,
 		  height: 550,
 		  theme: {
