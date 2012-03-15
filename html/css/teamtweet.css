@@ -262,6 +262,46 @@ footer {
         display: table-cell;
     }
 
+/*------------------------------
+=March Madness bracket
+------------------------------*/
+
+.bracket {
+	font-size: 10px;
+	text-align: center;
+}
+	.south {
+	 	/*position: absolute;*/ 
+		background: #6698FF;
+	}
+	.south p {
+		/*position: absolute;*/
+		/*top: 50%; height:10em; margin-top:-5em*/
+	}
+	.east {
+		/*position: absolute;*/
+		background: #4E9258;
+	}
+	.east p {
+		/*position: absolute;*/
+		/*top: 50%; height:10em; margin-top:-5em*/
+	}
+	.west {
+		/*position: absolute;*/
+		background: #D4A017;
+	}
+	.west p {
+		/*position: absolute;*/
+		/*top: 50%; height:10em; margin-top:-5em*/
+	}
+	.midwest{
+		/*position: absolute;*/
+		background: #F660AB;
+	}
+	.midwest p {
+		/*position: absolute;*/
+		/*top: 50%; height:10em; margin-top:-5em*/
+	}
 
 /*------------------------------
 =TWEET Window
