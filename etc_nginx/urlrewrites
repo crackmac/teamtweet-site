@@ -33,3 +33,38 @@ rewrite ^/diamondbacks$ /mlb_nl.php?var1=Arizona%20Diamondbacks&var2=dbacks&var3
 
 # NCAA 2012 Tornament
 rewrite ^/kentucky&westernkentucky$ /ncaa2012.php?var1=Kentucky&var2=Wildcats&var3=Western%20Kentucky&var4=Hilltoppers last;
+rewrite ^/iowastate&uconn$ /ncaa2012.php?var1=Iowa%20State&var2=Cyclones&var3=UCONN&var4=Huskies last;
+rewrite ^/wichita&vcu$ /ncaa2012.php?var1=Wichita%20State&var2=WuShock&var3=VCU&var4=Rams last;
+rewrite ^/indiana&newmexicostate$ /ncaa2012.php?var1=Indiana&var2=Dons&var3=New%20Mexico%20St&var4=Cowboys last;
+rewrite ^/unlv&colorado$ /ncaa2012.php?var1=UNLV&var2=Rebels&var3=Colorado&var4=Buffaloes last;
+rewrite ^/baylor&southdakota$ /ncaa2012.php?var1=Baylor&var2=Bears&var3=South%20Dakota%20St&var4=JackRabbits last;
+rewrite ^/notredame&xavier$ /ncaa2012.php?var1=Notre%20Dame&var2=Irish&var3=Xavier&var4=Musketeers last;
+rewrite ^/duke&lehigh$ /ncaa2012.php?var1=Duke&var2=Devils&var3=Lehigh&var4=Engineers last;
+rewrite ^/michiganstate&longisland$ /ncaa2012.php?var1=Michigan%20St&var2=Spartans&var3=Long%20Island&var4=Islanders last;
+rewrite ^/memphis&stlouis$ /ncaa2012.php?var1=Memphis&var2=Tigers&var3=St.%20Louis&var4=Billikens last;
+rewrite ^/newmexico&longbeach$ /ncaa2012.php?var1=New%20Mexico&var2=Lobos&var3=Long%20Beach&var4=Dirtbags last;
+rewrite ^/louisville&davidson$ /ncaa2012.php?var1=Louisville&var2=Cardinals&var3=Davidson&var4=Wildcats last;
+rewrite ^/murraystate&coloradostate$ /ncaa2012.php?var1=Murray%20St&var2=Racers&var3=Colorado%20St&var4=Rams last;
+rewrite ^/marquette&byu$ /ncaa2012.php?var1=Marquette&var2=Golden%20Eagles&var3=BYU&var4=Cougars last;
+rewrite ^/florida&virginia$ /ncaa2012.php?var1=Florida&var2=Gators&var3=Virginia&var4=Cavaliers last;
+rewrite ^/missouri&norfolk$ /ncaa2012.php?var1=Missouri&var2=Kangaroos&var3=Norfolk&var4=Spartans last;
+rewrite ^/syracuse&uncasherville$ /ncaa2012.php?var1=Syracus&var2=Orangemen&var3=UNC&var4=Bulldogs last;
+rewrite ^/kansasstate&southernmiss$ /ncaa2012.php?var1=Kansas%20St&var2=Wildcats&var3=Southern%20Miss&var4=Eagles last;
+rewrite ^/vanderbilt&harvard$ /ncaa2012.php?var1=Vanderbilt&var2=Commodores&var3=Harvard&var4=Crimson last;
+rewrite ^/wisconsin&montana$ /ncaa2012.php?var1=Wisconsin&var2=Eagles&var3=Montana&var4=Grizzlies last;
+rewrite ^/cincinnati&texas$ /ncaa2012.php?var1=Cincinnati&var2=Bearcats&var3=Texas&var4=Comets last;
+rewrite ^/floridastate&stbonaventure$ /ncaa2012.php?var1=Florida%20St&var2=Seminoles&var3=St%20Bonaventure&var4=Bonnies last;
+rewrite ^/gonzaga&westvirginia$ /ncaa2012.php?var1=Gonzaga&var2=Bulldogs&var3=West%20Virginia&var4=Mountaineers last;
+rewrite ^/ohiostate&loyola$ /ncaa2012.php?var1=Ohio%20St&var2=Buckeyes&var3=Loyola&var4=Greyhounds last;
+rewrite ^/ncarolina&vermont$ /ncaa2012.php?var1=N%20Carolina&var2=Tar%20Heels&var3=Vermont&var4=Catamounts last;
+rewrite ^/creighton&alabama$ /ncaa2012.php?var1=Creighton&var2=Bluejays&var3=Alabama&var4=Tide last;
+rewrite ^/temple&southflorida$ /ncaa2012.php?var1=Temple&var2=Owls&var3=S%20Florida&var4=Bulls last;
+rewrite ^/michigan&ohio$ /ncaa2012.php?var1=Michigan&var2=Wolverines&var3=Ohio&var4=Trailblazers last;
+rewrite ^/sandiego&ncstate$ /ncaa2012.php?var1=San%20Diego&var2=Aztecs&var3=NC%20State&var4=Wolfpack last;
+rewrite ^/georgetown&belmont$ /ncaa2012.php?var1=Georgetown&var2=Hoyas&var3=Belmont&var4=Bruins last;
+rewrite ^/stmarys&purdue$ /ncaa2012.php?var1=St%20Marys&var2=Cardinals&var3=Purdue&var4=BoilerMakers last;
+rewrite ^/kansas&detroit$ /ncaa2012.php?var1=Kansas&var2=Jayhawks&var3=Detroit&var4=Titans last;
+
+
+
+
