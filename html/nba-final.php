@@ -5,7 +5,7 @@ $team_name01 = "Oklahoma City Thunder";
 $team_common_name01 = "thunder";
 
 $hate="hate $team_common_name01 OR \"$team_name01\" OR $team_common_name02 OR \"$team_name02\"";
-$search="\#superbowl OR \"super bowl\"";
+$search="\#nbafinals OR \"NBA Finals\"";
 
 $score="$team_common_name from:realSCORES";
 ?>
@@ -24,9 +24,9 @@ $score="$team_common_name from:realSCORES";
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>TeamTweet - custom Twitter feeds for the 2012 Superbowl.</title>
-  <meta name="description" content="Custom Twitter feeds for the 2012 Superbowl and all your favorite MLB, NBA, NFL or NHL Teams.">
+  <meta name="description" content="Custom Twitter feeds for the 2012 NBA Finals and all your favorite MLB, NBA, NFL or NHL Teams.">
   <meta name="author" content="Kevin Duane">
-  <meta name="keywords" content="superbowl, twitter, sports, baseball, mlb, basketball, nba, football, nfl, hockey, nhl">
+  <meta name="keywords" content="nbafinals, twitter, sports, baseball, mlb, basketball, nba, football, nfl, hockey, nhl">
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
