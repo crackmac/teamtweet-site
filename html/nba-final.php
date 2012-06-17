@@ -1,20 +1,11 @@
 <?php 
+$team_name01 = "New York Giants"; 
+$team_common_name01 = "giants";
+$team_name01 = "New England Patriots"; 
+$team_common_name01 = "patriots";
 
-$team_name = $_GET['var1']; 
-$team_name_array = explode(" ", $team_name);
-$count=count($team_name_array);
-//echo $count . "\n";
-//echo $team_name_array[0] . "\n";
-//echo $team_name_array[1] . "\n";
-//echo $team_name_array[2] . "\n";
-$team_common_name = $_GET['var2'];
-//$hate="hate $team_common_name OR \"$team_name_array[1] OR $team_name_array[2]\"";
-$hate="hate $team_common_name OR \"$team_name\"";
-//echo $hate;
-$list_name="nba-" . $team_common_name;
-//echo $list_name;
-//$raw="$team_common_name OR \"$team_name_array[1] OR $team_name_array[2]\"";
-$raw="$team_common_name OR \"$team_name\"";
+$hate="hate $team_common_name01 OR \"$team_name01\" OR $team_common_name02 OR \"$team_name02\"";
+$search="\#superbowl OR \"super bowl\"";
 
 $score="$team_common_name from:realSCORES";
 ?>
@@ -32,10 +23,10 @@ $score="$team_common_name from:realSCORES";
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>TeamTweet - custom Twitter feeds for the <?php echo $team_name ?>.</title>
-  <meta name="description" content="Custom Twitter feeds for the <?php echo $team_name ?> and all your favorite MLB, NBA, NFL or NHL Teams.">
+  <title>TeamTweet - custom Twitter feeds for the 2012 Superbowl.</title>
+  <meta name="description" content="Custom Twitter feeds for the 2012 Superbowl and all your favorite MLB, NBA, NFL or NHL Teams.">
   <meta name="author" content="Kevin Duane">
-  <meta name="keywords" content="twitter, sports, baseball, mlb, basketball, nba, football, nfl, hockey, nhl">
+  <meta name="keywords" content="superbowl, twitter, sports, baseball, mlb, basketball, nba, football, nfl, hockey, nhl">
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,31 +44,33 @@ $score="$team_common_name from:realSCORES";
 
   <!-- CSS: teamtweet style -->
   <link rel="stylesheet" href="css/teamtweet.css">
-
-  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
-  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
-
+  
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="js/libs/modernizr-1.7.min.js"></script>
 
 </head>
 <body>
 	<div class="container_12">
-	<header class="grid_8">
+	<header class="grid_6">
 	    <h1>TeamTweet.net</h1>
 	</header>
-	<div class="grid_4">
-<!-- 
-	<p id="special">Special page for our friends <br />
-		at <b><a href="http://teamtweet.net/secrets_from_a_stylist.php" target="_blank">Secrets From A Stylist</a></b>
+	<div class="grid_6">
+	<p id="special">Super Bowl XLVI<br />
+		<b>New England Patriots VS New York Giants</b>
 	</p>
- -->
 	</div>
     <nav class="grid_12">
       <?php include "navigation.html" ?>
     </nav>    
-	<header class="grid_12">
-		<h3><?php echo $team_name ?></h3>
+	<header class="grid_4">
+		<h3>New York Giants</h3>
+	</header>
+		<header class="grid_4">
+		<h3>New England Patriots</h3>
+	</header>
+		</header>
+		<header class="grid_4">
+		<h3>Scores</h3>
 	</header>
 	<div class="grid_4 tw-window01">
 		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -111,56 +104,55 @@ $score="$team_common_name from:realSCORES";
 		    avatars: true,
 		    behavior: 'default'
 		  }
-		}).render().setList('tt_nba_ec', "<?php echo $list_name ?>").start();
+		}).render().setList('tt_nfl_nfc', "nfl-giants").start();
 		</script>
 	</div> 
 
 	<div class="grid_4 tw-window02">
-	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-	<script>
-	new TWTR.Widget({
-	  version: 2,
-	  type: 'search',
-	  search: '<?php echo $raw ?>',
-	  interval: 6000,
-	  title: '',
-	  subject: 'Raw Feed',
-	  width: 300,
-	  height: 550,
-	  theme: {
-	    shell: {
-	      background: '#8ec1da',
-	      color: '#ffffff'
-	    },
-	    tweets: {
-	      background: '#ffffff',
-	      color: '#444444',
-	      links: '#1985b5'
-	    }
-	  },
-	  features: {
-	    scrollbar: true,
-	    loop: true,
-	    live: true,
-	    hashtags: true,
-	    timestamp: true,
-	    avatars: true,
-	    toptweets: true,
-	    behavior: 'default'
-	  }
-	}).render().start();
-	</script>
-	</div>
+		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<script>
+		new TWTR.Widget({
+		  version: 2,
+		  type: 'list',
+		  rpp: 30,
+		  interval: 6000,
+		  title: '',
+		  subject: 'Expert Stream',
+		  width: 300,
+		  height: 550,
+		  theme: {
+		    shell: {
+		      background: '#4099ff',
+		      color: '#ffffff'
+		    },
+		    tweets: {
+		      background: '#ffffff',
+		      color: '#444444',
+		      links: '#b740c2'
+		    }
+		  },
+		  features: {
+		    scrollbar: true,
+		    loop: false,
+		    live: true,
+		    hashtags: true,
+		    timestamp: true,
+		    avatars: true,
+		    behavior: 'default'
+		  }
+		}).render().setList('tt_nfl_afc', "nfl-patriots").start();
+		</script>
+	</div> 
+	
 	<div class="grid_4 tw-window03">
 	<script>
 	new TWTR.Widget({
 	  version: 2,
-	  type: 'search',
+	  type: 'profile',
 	  rpp: 2,
-	  search: '<?php echo $score ?>',
-	  interval: 6000,
+	  interval: 30000,
 	  title: '',
-	  subject: 'Score by @realSCORES',
+	  subject: 'Score by @CBSSports',
 	  width: 300,
 	  height: 50,
 	  theme: {
@@ -184,7 +176,7 @@ $score="$team_common_name from:realSCORES";
 	    toptweets: false,
 	    behavior: 'default'
 	  }
-	}).render().start();
+	}).render().setUser('cbssports').start();
 	</script>
 	<br />	
 	</div>
@@ -194,10 +186,10 @@ $score="$team_common_name from:realSCORES";
 	new TWTR.Widget({
 	  version: 2,
 	  type: 'search',
-	  search: '<?php echo $hate ?>',
-	  interval: 6000,
+	  search: '<?php echo $search ?>',
+          interval: 6000,
 	  title: '',
-	  subject: 'Trash Talk',
+	  subject: 'Raw Feed',
 	  width: 300,
 	  height: 400,
 	  theme: {
