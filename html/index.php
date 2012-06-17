@@ -45,10 +45,13 @@
 
 <body>
 <div class="container_12">
-	<header class="grid_8">
+	<header class="grid_6">
 	    <h1>TeamTweet.net</h1>
 	</header>
-	<div class="grid_4">
+	<div class="grid_6">
+	<p id="special">NBA Finals 2012<br />
+		<b>Miami Heat VS Oklahoma City Thunder</b>
+	</p>
 	</div>
     <nav class="grid_12">
       <?php include "navigation.html" ?>
