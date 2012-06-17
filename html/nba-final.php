@@ -1,8 +1,8 @@
 <?php 
-$team_name01 = "New York Giants"; 
-$team_common_name01 = "giants";
-$team_name01 = "New England Patriots"; 
-$team_common_name01 = "patriots";
+$team_name01 = "Miami Heat"; 
+$team_common_name01 = "heat";
+$team_name01 = "Oklahoma City Thunder"; 
+$team_common_name01 = "thunder";
 
 $hate="hate $team_common_name01 OR \"$team_name01\" OR $team_common_name02 OR \"$team_name02\"";
 $search="\#superbowl OR \"super bowl\"";
@@ -55,18 +55,18 @@ $score="$team_common_name from:realSCORES";
 	    <h1>TeamTweet.net</h1>
 	</header>
 	<div class="grid_6">
-	<p id="special">Super Bowl XLVI<br />
-		<b>New England Patriots VS New York Giants</b>
+	<p id="special">NBA Finals 2012<br />
+		<b>Miami Heat VS Oklahoma City Thunder</b>
 	</p>
 	</div>
     <nav class="grid_12">
       <?php include "navigation.html" ?>
     </nav>    
 	<header class="grid_4">
-		<h3>New York Giants</h3>
+		<h3>Miami Heat</h3>
 	</header>
 		<header class="grid_4">
-		<h3>New England Patriots</h3>
+		<h3>Oklahoma City Thunder</h3>
 	</header>
 		</header>
 		<header class="grid_4">
@@ -104,7 +104,7 @@ $score="$team_common_name from:realSCORES";
 		    avatars: true,
 		    behavior: 'default'
 		  }
-		}).render().setList('tt_nfl_nfc', "nfl-giants").start();
+		}).render().setList('tt_nba_ec', "nba-heat").start();
 		</script>
 	</div> 
 
@@ -140,7 +140,7 @@ $score="$team_common_name from:realSCORES";
 		    avatars: true,
 		    behavior: 'default'
 		  }
-		}).render().setList('tt_nfl_afc', "nfl-patriots").start();
+		}).render().setList('tt_nba_wc', "nba-thunder").start();
 		</script>
 	</div> 
 	
@@ -152,7 +152,7 @@ $score="$team_common_name from:realSCORES";
 	  rpp: 2,
 	  interval: 30000,
 	  title: '',
-	  subject: 'Score by @CBSSports',
+	  subject: 'Score by @realSCORES',
 	  width: 300,
 	  height: 50,
 	  theme: {
@@ -176,7 +176,7 @@ $score="$team_common_name from:realSCORES";
 	    toptweets: false,
 	    behavior: 'default'
 	  }
-	}).render().setUser('cbssports').start();
+	}).render().setUser('realSCORES').start();
 	</script>
 	<br />	
 	</div>
