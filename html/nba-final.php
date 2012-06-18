@@ -1,8 +1,8 @@
 <?php 
 $team_name01 = "Miami Heat"; 
 $team_common_name01 = "heat";
-$team_name01 = "Oklahoma City Thunder"; 
-$team_common_name01 = "thunder";
+$team_name02 = "Oklahoma City Thunder"; 
+$team_common_name02 = "thunder";
 
 $hate="hate $team_common_name01 OR \"$team_name01\" OR $team_common_name02 OR \"$team_name02\"";
 $search="\#nbafinals OR \"NBA Finals\"";
