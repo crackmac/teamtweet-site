@@ -49,9 +49,9 @@
 	    <h1>TeamTweet.net</h1>
 	</header>
 	<div class="grid_6">
-	<p id="special">NBA Finals 2012<br />
+<!--	<p id="special">NBA Finals 2012<br />
 		<b>Miami Heat VS Oklahoma City Thunder</b>
-	</p>
+	</p> -->
 	</div>
     <nav class="grid_12">
       <?php include "navigation.html" ?>
